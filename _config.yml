@@ -5,10 +5,10 @@
 # Site
 title: Leafsu's Blogs
 subtitle: Good Good Study, Day Day up.
-description: Note my life and share knowledge.
+description: Welcome!
 keywords:
 author: Xiaodong Deng
-language: cn
+language: zh-Hans
 timezone:
 
 # URL
@@ -80,3 +80,9 @@ theme: next
 deploy:
   type: git
   repo: https://github.com/leafsu3340/leafsu3340.github.io.git
+
+search:
+  path: search.xml
+  field: post
+  format: html
+  limit: 10000
