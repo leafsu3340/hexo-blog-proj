@@ -29,6 +29,12 @@
 
     {% if not headlessPost %}
       <header class="post-header">
+        <!--
+        {% if post.top %}
+          <i class="fa fa-thumb-tack"></i>
+          <font color=7D26CD>置顶</font>
+        {% endif %}
+        -->
 
         {# Not to show title for quote posts that do not have a title #}
         {% if not (is_index and post.type === 'quote' and not post.title) %}
@@ -333,6 +339,12 @@
     {#####################}
     {### END POST BODY ###}
     {#####################}
+
+    <div>
+      {% if not is_index %}
+        {% include 'my-copyright.swig' %}
+      {% endif %}
+    </div>
 
     {% if theme.wechat_subscriber.enabled and not is_index %}
       <div>

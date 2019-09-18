@@ -22,6 +22,7 @@
 </div>
 
 {% if theme.footer.powered %}
+<!--
   <div class="powered-by">{#
   #}{{ __('footer.powered', '<a class="theme-link" target="_blank" href="https://hexo.io">Hexo</a>') }}{#
 #}</div>
@@ -38,6 +39,7 @@
     #}NexT.{{ theme.scheme }}{#
   #}</a>{% if theme.footer.theme.version %} v{{ theme.version }}{% endif %}{#
 #}</div>
+-->
 {% endif %}
 
 {% if theme.footer.custom_text %}
@@ -45,3 +47,8 @@
   #}{{ theme.footer.custom_text }}{#
 #}</div>
 {% endif %}
+
+<div class="theme-info">
+  <div class="powered-by"></div>
+  <span class="post-count">博客全站共{{ totalcount(site) }}字</span>
+</div>
