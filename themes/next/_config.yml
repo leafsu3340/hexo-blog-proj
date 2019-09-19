@@ -113,8 +113,8 @@ menu_icons:
 # Schemes
 #scheme: Muse
 #scheme: Mist
-scheme: Pisces
-#scheme: Gemini
+#scheme: Pisces
+scheme: Gemini
 
 
 # ---------------------------------------------------------------
@@ -719,11 +719,11 @@ canvas_sphere: false
 # size: The width of the ribbon.
 # alpha: The transparency of the ribbon.
 # zIndex: The display level of the ribbon.
-canvas_ribbon:
-  enable: true
-  size: 50
-  alpha: 0.6
-  zIndex: -1
+#canvas_ribbon:
+  #enable: true
+  #size: 50
+  #alpha: 0.6
+  #zIndex: -1
 
 # Script Vendors.
 # Set a CDN address for the vendor you want to customize.
